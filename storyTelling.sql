@@ -1,0 +1,16 @@
+CREATE TABLE ST_USERS(
+	userId VARCHAR(255),
+	name VARCHAR(255),
+	email VARCHAR(255),
+	pwd VARCHAR(50)
+);
+
+CREATE TABLE ST_STORIES(
+	userId VARCHAR(255),
+	storyId VARCHAR(255),
+	title VARCHAR(50),
+	date TIMESTAMP,
+	storyDescription VARCHAR(100),
+	genre VARCHAR(50),
+	story VARCHAR
+);
